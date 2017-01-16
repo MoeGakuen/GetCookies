@@ -7,7 +7,6 @@ function onload(func) {
 }
 
 onload(function() {
-    console.log("onload");
     document.body.setAttribute("get-cookie", "true");
     window.postMessage("start", "*");
     window.addEventListener('click', function(event) {      
